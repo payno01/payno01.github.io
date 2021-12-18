@@ -1,0 +1,77 @@
+#usuario_container{
+    display: flex;
+    width: 60%;
+    margin-top: 0.5vw;
+}
+#foto-usuario{
+    width: 15vw;
+    height: 15vw;
+    border: solid 2px black;
+    margin-top: 15px;
+    margin-left: 2.2vw;
+}
+#foto-usuario img{
+    top:calc(50% - 10vw);
+    max-height: 30vw;
+    min-height: 20vw;
+}
+
+#datos-usuario{
+    padding-top:2.5vw;
+}
+#datos-usuario h2{
+    margin-left:7vw;
+    font-size: 1.7vw;
+}
+#datos-usuario p{
+    margin-top:1vw;
+    margin-left:7vw;
+    font-size: 1.3vw;
+}
+#datos-usuario button{
+    margin-top:2vw;
+    margin-left:7vw;
+    font-size: 1.3vw;
+    width: 10vw;
+}
+#num-publi-mg{
+    display: flex;
+}
+
+#experiencias-usuario-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    
+}
+.exp-usuario{
+    height: 19vw;
+    width: 19vw;
+    overflow: hidden;
+    margin: 0.5vw;
+    transition: ease all .3s;
+}
+
+.exp-usuario:hover{
+    cursor: pointer;
+    transform: scale(1.11);
+}
+.exp-usuario img{
+    min-width: 19vw;
+    min-height: 19vw;
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none;
+}
+
+.user-sin-exp{
+    text-align: center;
+    margin-top: 1vw;
+
+}
+.user-img-sin-exp{
+    margin-left: 13vw;
+}
+.path-container{
+    margin-left: 20vw;
+}
