@@ -1,3 +1,3 @@
 # Proyecto final: Red Social
 
-Web hosteada en [moonbyte.xyz](https://moonbyte.xyz/)
+Web hosteada en https://payno01.github.io/
